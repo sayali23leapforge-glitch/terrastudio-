@@ -1,5 +1,5 @@
 import { Instagram, Linkedin, Facebook, MapPin, Mail, MessageCircle } from "lucide-react";
-import logo from "@/assets/cssa-logo.png.asset.json";
+import logo from "@/assets/ChatGPT Image Jun 1, 2026, 07_16_01 PM.png";
 
 const WHATSAPP = "https://wa.me/27000000000";
 
@@ -11,7 +11,7 @@ export function Footer() {
         <div className="grid grid-cols-1 gap-12 lg:grid-cols-12">
           <div className="lg:col-span-5">
             <div className="inline-flex items-center rounded-2xl bg-white/95 p-4">
-              <img src={logo.url} alt="CarbonSmart Solutions Africa" className="h-14 w-auto" />
+              <img src={logo} alt="Carbon Smart Solutions Africa" className="h-14 w-auto" />
             </div>
             <p className="mt-6 max-w-md text-white/70">
               Verified climate solutions restoring ecosystems, empowering communities,
